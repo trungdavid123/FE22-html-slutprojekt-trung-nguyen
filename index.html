@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="#">
+    <title>Trung's portfolio</title>
+</head>
+
+<body>
+    <div class="wrapper container">
+        <!--      NAVBAR      -->
+        <header>
+            <div class="header-left container">
+                <a href="index.html">
+                    <img class="logo" src="images/logo.svg" alt="logo">
+                </a>
+                <div class="btn-toggle">
+                    <img id="btn-open" src="images/hamburger.png" alt="hamburger">
+                    <img class="toggle" id="btn-close" src="images/close.png" alt="close">
+                </div>
+            </div>
+            <nav id="nav">
+                <a href="#" class="logo-link">
+                    <img class="logo" src="images/logo.svg" alt="logo">
+                </a>
+                <ul class="menu-items">
+                    <li class="menu-item ac"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="pages/about.html">About Me</a></li>
+                    <li class="menu-item"><a href="pages/myProjects.html">My Projects</a></li>
+                    <li class="menu-item"><a class="contact-me" href="#contact" id="btn-contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!--      MAIN      -->
+
+        <main class="container">
+             <!--      Social Media Icons      -->
+             <section class="social-media destop">
+                <div class="social-media-icons">
+                    <a href="https://m.facebook.com/" class="social-media-icon">
+                        <img src="images/facebook.svg" alt="facebook">
+                    </a>
+                    <a href="https://twitter.com/?lang=en" class="social-media-icon">
+                        <img src="images/twitter.svg" alt="twitter">
+                    </a>
+                    <a href="https://www.linkedin.com/" class="social-media-icon">
+                        <img src="images/linkedin.svg" alt="linkedin">
+                    </a>
+                </div>
+            </section>
+            <img class="profile-img destop" src="images/profile.avif" alt="profile">
+            <div class="info">
+                <div class="info-title">
+                    <h2>Hello. I'm Trung</h2>
+                    <p>A Web Developer</p>
+                    <img class="profile-img mobile" src="images/profile.avif" alt="profile">
+                </div>
+                <blockquote>“You don’t learn to walk by following rules. You learn by doing and falling over.”
+                </blockquote>
+                <div class="btn-my-works">
+                    <a href="/pages/myProjects.html">MY PROJECTS
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none"
+                        stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 18l6-6-6-6" />
+                    </svg>
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <!--      MY WORKS      -->
+
+        <section class="my-work container" id="my-work">
+            <div class="title">
+                <h2>Latest My Work</h2>
+                <p>Here are some examples of my work. I primarily work with HTML & CSS</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="pages/projects/images/play-1.jpeg" alt="Play">
+                    <h3>Playstation 4</h3>
+                </div>
+                <div class="card">
+                    <img src="pages/projects/images/bike-1.jpeg" alt="Motorcycle">
+                    <h3>Motorcycle 4</h3>
+                </div>
+                <div class="card">
+                    <img src="pages/projects/images/shop-1.jpeg" alt="Shop">
+                    <h3>Shop</h3>
+                </div>
+                <div class="card">
+                    <img src="pages/projects/images/university-1.jpeg" alt="university">
+                    <h3>University</h3>
+                </div>
+            </div>
+        </section>
+
+        <!--      Footer      -->
+
+        <footer>
+            <section id="contact" class="contact-information container">
+                <div class="contact-header">
+                    <h2 class="contact-title">
+                        Contact Me
+                    </h2>
+                    <span class="contact-subtitle">
+                        Let's get this conversation started
+                    </span>
+                </div>
+                <form action="" class="contact-form">
+                    <div class="contact-inputs">
+                        <div class="contact-content">
+                            <label for="" class="contact-label">
+                                Full Name
+                            </label>
+                            <input type="text" class="contact-input">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">
+                                Email
+                            </label>
+                            <input type="email" class="contact-input">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">
+                                Projects
+                            </label>
+                            <input type="text" class="contact-input">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">
+                                Message
+                            </label>
+                            <textarea class="contact-text" name="" id="" cols="0" rows="7"></textarea>
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Send Message">
+                        <svg width="104" height="104" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.0162365 37.0928C-0.120104 39.8496 0.60487 42.5801 2.09075 44.9066C3.57582 47.2322 5.74913 49.0377 8.3069 50.0731L38.2737 62.4189V62.4181C39.7743 63.0411 40.9671 64.2342 41.5899 65.735L53.9618 95.7075C54.9578 98.1694 56.669 100.275 58.8751 101.754C61.0811 103.232 63.6796 104.014 66.3346 104H66.9395H66.9387C69.6965 103.899 72.3548 102.941 74.5445 101.26C76.7334 99.579 78.345 97.2582 79.1555 94.6198L103.383 17.4351C104.368 14.3011 104.168 10.9148 102.823 7.91798C101.478 4.92115 99.0798 2.52281 96.0835 1.1772C93.0873 -0.168513 89.7016 -0.367751 86.5683 0.617027L9.39829 24.8743C6.75964 25.6844 4.43783 27.2955 2.75682 29.4856C1.075 31.6749 0.117329 34.3343 0.0153356 37.0929L0.0162365 37.0928ZM11.5889 31.8544L88.7673 7.61381C89.3714 7.42273 90.0017 7.32556 90.6352 7.32556C92.5595 7.35251 94.3588 8.28502 95.4912 9.84139C96.6235 11.3978 96.9566 13.3976 96.3892 15.2372L72.1533 92.4303C71.6496 94.0349 70.5058 95.3603 68.9921 96.0919C67.4785 96.8244 65.729 96.8987 64.159 96.2977C62.5882 95.6967 61.3358 94.4743 60.6981 92.9179L48.3596 62.9454C48.1416 62.4685 47.8943 62.0063 47.6183 61.5605L56.3622 52.815C57.2325 51.8808 57.5525 50.5613 57.208 49.3323C56.8634 48.1034 55.9033 47.143 54.6746 46.7985C53.4459 46.4539 52.1267 46.774 51.1927 47.6445L42.4488 56.39C42.0031 56.114 41.541 55.8666 41.0642 55.6485L11.0974 43.3125C9.54133 42.6748 8.31915 41.4222 7.71827 39.851C7.11739 38.2807 7.19169 36.5308 7.92401 35.0169C8.65552 33.503 9.98055 32.3589 11.5849 31.8551L11.5889 31.8544Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                </form>
+            </section>
+            <section class="social-media mobile">
+                <div class="social-media-icons">
+                    <a href="#" class="social-media-icon">
+                        <img src="images/facebook.svg" alt="facebook">
+                    </a>
+                    <a href="#" class="social-media-icon">
+                        <img src="images/twitter.svg" alt="twitter">
+                    </a>
+                    <a href="#" class="social-media-icon">
+                        <img src="images/linkedin.svg" alt="linkedin">
+                    </a>
+                </div>
+            </section>
+        </footer>
+    </div>
+
+    <!--      JS      -->
+
+    <script src="main.js"></script>
+</body>
+
+</html>
